@@ -11,12 +11,21 @@ Write a program that reads a file, breaks each line into words, strips whitespac
 
 ## Additional Features
 
-I also added
-- 
-- 
-- 
+I also added :
 
+- File with __binary__ raw.
+- File with __ascii__ raw.
+- File with __UTF__ raw.
+- File with __Syllables__ only.
+- File with __Spaces and Syllables__.
+
+
+I added extra features such as :
+
+- Language of __origin__.
+- Message __type__.
+- __Emotion__ judger.
 
 ## Team
 
-This task is lead by Bhargav __Kantheti__.
+This task is lead and made by Bhargav __Kantheti__.
