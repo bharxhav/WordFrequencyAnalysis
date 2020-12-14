@@ -13,22 +13,19 @@ Write a program that reads a file, breaks each line into words, strips whitespac
 
 I also added :
 
-- File with __binary__ raw.
-- File with __alphabet__ raw.
-- File with __word__ raw.
-- File with __word with whitespace__.
-- File with __punctuation__ raw.
-- File with __punctuation with whitespace__ raw.
+- File with __Binary__ raw.
+- File with __Alphabet__ raw.
+- File with __Word__ raw.
+- File with __Word with WhiteSpace__.
+- File with __Punctuation__ raw.
+- File with __Punctuation with WhiteSpace__ raw.
 - File with __WhiteSpaces__.
 
 
 I added extra features such as :
 
 - Language of __origin__.
-- Message __type__.
-- __Emotion__ judger.
 - Hidden Messages - `Rabin-Karp` Algorithm.
-- Decipher __Vernier__ and __Ceaser__ Cipher.
 - Add Frequency analysis on words, the most common used letter etc.
 - Add Frequency analysis on letters, the most common used word etc.
 - Add the Bell Curve using pyplot.
