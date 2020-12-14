@@ -1,5 +1,6 @@
 # Word Frequency Analysis
 from TextSplitter import TextSplitter
+from BatchMaker import BatchMaker
 
 
 if __name__ == '__main__':
@@ -16,5 +17,6 @@ if __name__ == '__main__':
         "StarWars_EmpireStrikesBack.txt"
     ]
 
-    # ts = TextSplitter("")
-    # ts.partition()
+    # bm = BatchMaker(files)
+    # bm.write_batch()
+    # bm.create_folders()
