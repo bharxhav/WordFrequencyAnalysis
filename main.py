@@ -9,7 +9,7 @@ if __name__ == '__main__':
         "BladeRunner.txt",
         "Dune.txt",
         "FightClub.txt",
-        "Interstellar_Mandarin.txt",
+        # "Interstellar_Mandarin.txt",
         "LoremIpsumFiller.txt",
         "MadMax.txt",
         "Matrix.txt",
@@ -17,6 +17,11 @@ if __name__ == '__main__':
         "StarWars_EmpireStrikesBack.txt"
     ]
 
-    # bm = BatchMaker(files)
-    # bm.write_batch()
-    # bm.create_folders()
+    bm = BatchMaker(files)
+    bm.write_batch()
+    bm.create_folders()
+
+    for f in files:
+        movie = TextSplitter(f)
+        movie.partition_words()
+        movie.partition()
