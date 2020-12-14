@@ -17,7 +17,7 @@ I also added :
 - File with __ascii__ raw.
 - File with __UTF__ raw.
 - File with __Syllables__ only.
-- File with __Spaces and Syllables__.
+- File with __WhiteSpaces__.
 
 
 I added extra features such as :
@@ -25,6 +25,11 @@ I added extra features such as :
 - Language of __origin__.
 - Message __type__.
 - __Emotion__ judger.
+- Hidden Messages - `Rabin-Karp` Algorithm.
+- Decipher __Vernier__ and __Ceaser__ Cipher.
+- Add Frequency analysis on words, the most common used letter etc.
+- Add Frequency analysis on letters, the most common used word etc.
+- Add the Bell Curve using pyplot.
 
 ## Team
 
