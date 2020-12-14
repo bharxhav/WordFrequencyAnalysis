@@ -14,9 +14,11 @@ Write a program that reads a file, breaks each line into words, strips whitespac
 I also added :
 
 - File with __binary__ raw.
-- File with __ascii__ raw.
-- File with __UTF__ raw.
-- File with __Syllables__ only.
+- File with __alphabet__ raw.
+- File with __word__ raw.
+- File with __word with whitespace__.
+- File with __punctuation__ raw.
+- File with __punctuation with whitespace__ raw.
 - File with __WhiteSpaces__.
 
 
