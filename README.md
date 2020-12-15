@@ -24,11 +24,9 @@ I also added :
 
 I added extra features such as :
 
-- Language of __origin__.
-- Hidden Messages - `Rabin-Karp` Algorithm.
 - Add Frequency analysis on words, the most common used letter etc.
 - Add Frequency analysis on letters, the most common used word etc.
-- Add the Bell Curve using pyplot.
+- Prove `Benford's Law` using pyplot.
 
 ## Team
 
