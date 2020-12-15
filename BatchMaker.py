@@ -1,6 +1,14 @@
 # Creates the Batch Files
 import subprocess
 
+"""
+* BatchMaker *
+
+This is BatchMaker class, which will create and execute the batch file to create
+folders for results.
+
+"""
+
 
 class BatchMaker:
     def __init__(self, files, directory="H:\\Projects-DSP-Case_Study\\WordFrequencyAnalysis\\results"):
