@@ -28,6 +28,6 @@ if __name__ == '__main__':
         movie.partition_words()
         movie.partition()
 
-        fs = FrequencyAnalyser(f)
-        fs.analyse()
-        fs.plot()
+        # fs = FrequencyAnalyser(f)
+        # fs.analyse()
+        # fs.plot()

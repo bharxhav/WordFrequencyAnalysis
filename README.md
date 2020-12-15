@@ -28,6 +28,7 @@ I added extra features such as :
 - Add Frequency analysis on letters, the most common used word etc.
 - Prove `Benford's Law` using pyplot.
 
-## Team
 
-This task is lead and made by Bhargav __Kantheti__.
+Advantage :
+
+- Frequency analysis, to find the language of origin.
