@@ -1,7 +1,7 @@
 # Word Frequency Analysis
 from TextSplitter import TextSplitter
 from BatchMaker import BatchMaker
-
+from FrequencyAnalyser import FrequencyAnalyser
 
 if __name__ == '__main__':
     files = [
@@ -9,7 +9,6 @@ if __name__ == '__main__':
         "BladeRunner.txt",
         "Dune.txt",
         "FightClub.txt",
-        # "Interstellar_Mandarin.txt",
         "LoremIpsumFiller.txt",
         "MadMax.txt",
         "Matrix.txt",
@@ -22,6 +21,13 @@ if __name__ == '__main__':
     bm.create_folders()
 
     for f in files:
+        print()
+        print(f"Script :: {f}")
+
         movie = TextSplitter(f)
         movie.partition_words()
         movie.partition()
+
+        fs = FrequencyAnalyser(f)
+        fs.analyse()
+        fs.plot()
