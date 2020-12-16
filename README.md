@@ -32,3 +32,12 @@ I added extra features such as :
 Advantage :
 
 - Frequency analysis, to find the language of origin.
+
+
+### Credits
+
+This project was theorized and made by Bhargav __Kantheti__.
+
+As a part of Semester III project for **Data Structures and Algorithms** Class.
+
+_Gitam University._
