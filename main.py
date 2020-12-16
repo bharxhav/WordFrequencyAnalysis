@@ -28,7 +28,9 @@ if __name__ == '__main__':
         movie.partition_words()
         movie.partition()
 
-    # for f in files:
-    #     fs = FrequencyAnalyser(f)
-    #     fs.analyse()
-    #     fs.plot()
+    for f in files:
+        print()
+        print(f"Script :: {f}")
+        fs = FrequencyAnalyser(f)
+        fs.analyse()
+        fs.plot()
